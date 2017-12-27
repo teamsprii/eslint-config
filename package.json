@@ -1,0 +1,26 @@
+{
+  "name": "@sprii/eslint-config",
+  "description": "Sprii's eslint configurations",
+  "version": "0.1.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "homepage": "https://github.com/teamsprii/eslint-config",
+  "bugs": {
+    "url": "https://github.com/teamsprii/eslint-config/issues"
+  },
+  "repository": "git@github.com:teamsprii/eslint-config.git",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  }
+}
