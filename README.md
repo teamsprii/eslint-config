@@ -42,10 +42,10 @@ Cutting edge ES6 with modules in the browser, using react:
 {
     "root": true,
     "extends": [
-        "@carsy/eslint-config/es6",
-        "@carsy/eslint-config/addons/es6-modules",
-        "@carsy/eslint-config/addons/browser",
-        "@carsy/eslint-config/addons/react"
+        "@sprii/eslint-config/es6",
+        "@sprii/eslint-config/addons/es6-modules",
+        "@sprii/eslint-config/addons/browser",
+        "@sprii/eslint-config/addons/react"
     ]
 }
 ```
@@ -56,9 +56,9 @@ Cutting edge ES6 with modules in NodeJS (requires babel or similar):
 {
     "root": true,
     "extends": [
-        "@carsy/eslint-config/es6",
-        "@carsy/eslint-config/addons/es6-modules",
-        "@carsy/eslint-config/addons/node"
+        "@sprii/eslint-config/es6",
+        "@sprii/eslint-config/addons/es6-modules",
+        "@sprii/eslint-config/addons/node"
     ]
 }
 ```
@@ -69,8 +69,8 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@carsy/eslint-config/es6",
-        "@carsy/eslint-config/addons/node"
+        "@sprii/eslint-config/es6",
+        "@sprii/eslint-config/addons/node"
     ]
 }
 ```
@@ -81,9 +81,9 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@carsy/eslint-config/es6",
-        "@carsy/eslint-config/addons/node"
-        "@carsy/eslint-config/addons/node-v4-es6"
+        "@sprii/eslint-config/es6",
+        "@sprii/eslint-config/addons/node"
+        "@sprii/eslint-config/addons/node-v4-es6"
     ]
 }
 ```
@@ -95,8 +95,8 @@ Good old ES5 in NodeJS:
 {
     "root": true,
     "extends": [
-        "@carsy/eslint-config/es5",
-        "@carsy/eslint-config/addons/node"
+        "@sprii/eslint-config/es5",
+        "@sprii/eslint-config/addons/node"
     ]
 }
 ```
