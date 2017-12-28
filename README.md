@@ -16,18 +16,14 @@ This config was tested with `eslint@^4.3.0` and the specific version ranges for 
 
 ## Usage
 
-First you need to choose the **base** configuration to use:
-
-- `es5` - The configuration to be used in ECMAScript 5 based projects
-- `es6` - The configuration to be used in ECMAScript 6 based projects
+First you need to choose the ECMAScript version you want to target: `es5`, `es6`, `es7` or `es8`.
 
 Then enhance it with one or more **addons**:
 
-- `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
+- `browser` - If you are going to develop code for the browser
 - `node` - If you are going to develop code for NodeJS
-- `node-v4-es6` - If you are going to develop code for NodeJS >= 4 with the `es6` base configuration
-- `es6-modules` - If you are going to use ES6 import & export (must be used with the `es6` base configuration)
-- `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
+- `es6-modules` - If you are going to use ES6 import & export
+- `react` - If you are going to use React and JSX (requires )
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons. Feel free to override rules you won't agree with. You can look at some examples bellow.
 

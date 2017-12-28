@@ -8,9 +8,8 @@ module.exports = {
         './rules/style',
         './rules/variables',
     ].map(require.resolve),
-    env: {},
-    globals: {
-        'Promise': true,
+    parserOptions: {
+        ecmaVersion: 5,
+        sourceType: 'script',
     },
-    rules: {},
 };
